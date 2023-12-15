@@ -1,0 +1,204 @@
+@media only screen and (min-width: 376px){
+body{
+    background-image:url("bg-intro-desktop.png");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(221, 109, 128);
+}
+.Contenedor{
+ width: 1000px;
+ height: 500px;
+ display: flex;
+ padding-left: 150px;
+}
+.tg{
+    padding-top: 170px;
+    color: white;
+    font-weight: 700;
+    font-size: 45px;
+}
+.tp{
+    padding-top: 50px;
+    color: white;
+    font-size: 14px;
+}
+ul{
+    list-style: none;
+}
+.derecho li{
+    padding-top: 30px;
+    width: 200px;
+}
+input{
+    width: 380px;
+    height: 40px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-left: 15px;
+    color: #252525;
+    border-radius: 5px;
+    outline: none;
+    border: 2px solid rgb(192, 192, 192);
+    caret-color: hsl(248, 32%, 49%);
+}
+input:focus{
+    border: 2px solid hsl(248, 32%, 49%);
+    outline: none;
+}
+.Formulario{
+    width: 500px;
+    height: 500px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    box-shadow: 0px 5px 0px #ca558cfa;
+}
+.buton{
+    background-color: hsl(154, 59%, 51%);
+    width: 400px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500px;
+    box-shadow: 0px 3px 0px #35bb3b;
+}
+.buton:active{
+    scale: 0.98;
+}
+input,button,.ta{
+    margin: 10px 0px 0px 50px;
+}
+.bi{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    height: 50px;
+    width: 500px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #ca558cfa;
+    text-align: center;
+}
+.azul{
+    padding-bottom: 20px;
+    padding-right: 10px;
+    width: 900px;
+}
+.ta{
+    font-size: 11px;
+    width: 400px;
+    padding-top: 10px;
+    padding-left: 50px;
+}
+.tc{
+    opacity: .7;
+}
+.cd{
+    color:hsl(0, 100%, 74%);
+}}
+@media only screen and (max-width: 375px){
+body{
+    background-image:url("bg-intro-desktop.png");
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(221, 109, 128);
+    }
+ul{
+    list-style: none;
+    }
+.tg{
+    color: white;
+    font-weight: 700;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 40px;
+    padding-right: 25px;
+    }
+.tp{
+    color: white;
+    font-size: 12px;
+    padding-top: 20px;
+    text-align: center;
+    width: 280px;
+    padding-right: 20px;
+    font-size: 14px;
+    opacity: .8;
+    }
+.bi{
+    background-color: hsl(248, 32%, 49%);
+    color: white;
+    height: 50px;
+    width: 300px;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 5px 0px #ca558cfa;
+    text-align: center;
+    font-size: 12px;
+    }
+.azul{
+    width: 300px;
+    }
+.derecho{
+    padding-top: 20px;
+    }
+.Formulario{
+    padding-top: 10px;
+    width: 300px;
+    border-radius: 8px;
+    background-color: rgb(255, 255, 255);
+    border-style: none;
+    box-shadow: 0px 5px 0px #ca558cfa;
+    height: 310px;
+    }
+input{
+    width: 240px;
+    height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    padding-left: 15px;
+    color: #252525;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    border: 2px solid rgb(192, 192, 192);
+    caret-color: hsl(248, 32%, 49%);
+    }
+input:focus{
+    border: 2px solid hsl(248, 32%, 49%);
+    outline: none;
+    }
+.buton{
+    background-color: hsl(154, 59%, 51%);
+    width: 260px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    box-shadow: 0px 3px 0px #35bb3b;
+    }
+.buton:active{
+    scale: 0.98;
+    }
+input,.buton{
+    margin: 10px 0 0 20px;
+    }
+.ta{
+    font-size: 10px;
+    padding-left: 23px;
+    text-align: center;
+    width: 255px;
+    padding-top: 10px;
+    opacity: .6;
+    }
+.tc{
+    opacity: .8;
+    }
+.cd{
+    color:hsl(0, 100%, 74%);
+    }
+}
